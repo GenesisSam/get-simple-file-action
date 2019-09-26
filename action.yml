@@ -1,0 +1,16 @@
+name: get file
+author: GenesisSam
+description: get file by given file name work in inside the step.
+inputs:
+  file-name:
+    description: path name with file name (e.g. 'version', 'tmp/version')
+    required: true
+outputs:
+  data:
+    description: data of the file from file-name
+runs:
+  using: node12
+  main: "index.js"
+branding:
+  icon: file-text
+  color: green
