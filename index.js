@@ -9,7 +9,7 @@ async function main() {
 
   const result = await fs.open(fileName, "r");
 
-  core.setOutput('data', data);
+  core.setOutput('data', result);
 }
 
 main().catch(err => core.setFailed(err.message));
