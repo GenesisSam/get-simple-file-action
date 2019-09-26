@@ -7,7 +7,7 @@ async function main() {
   }).trim();
 
 
-  const result = await fs.open(fileName, "r");
+  const result = await fs.readFile(fileName, "utf-8");
 
   core.setOutput('data', result);
 }
