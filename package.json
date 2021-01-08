@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/GenesisSam/get-simple-file-action#readme",
   "dependencies": {
-    "@actions/core": "^1.1.1",
+    "@actions/core": "^1.2.6",
     "fs-extra": "^8.1.0"
   }
 }
