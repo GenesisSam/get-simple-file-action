@@ -13,7 +13,7 @@ steps:
       mkdir tmp
       echo "v1.0.0-beta.10" > tmp/version
 
-  - uses: GenesisSam/get-simple-file-action@v1.0.4
+  - uses: GenesisSam/get-simple-file-action@v1.0.5
     id: openFile
     with:
       file-name: ${{ 'tmp/version' }}
